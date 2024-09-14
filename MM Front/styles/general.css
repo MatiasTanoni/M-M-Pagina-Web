@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  box-shadow: 0px 2px 50px 2px black;
+}
+
+.list-navbar {
+  display: flex;
+  border: 1px solid black;
+  list-style: none;
+}
+
+.list-navbar li a {
+  text-decoration: none;
+}
